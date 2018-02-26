@@ -6,6 +6,9 @@
 (setq mac-control-modifier 'control)
 (setq mac-function-modifier 'super)
 
+;;Make sure Cmd+SPC does nto clash with Alfred
+(global-set-key (kbd "C-p") 'set-mark-command)
+
 ;;;;;;;;;;;;;;;;;;;;
 ;;Package Management
 ;;;;;;;;;;;;;;;;;;;;

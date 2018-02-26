@@ -1,2 +1,4 @@
-/.DS_Store
-/auto-save-list
+/.DS_Store/
+/auto-save-list/
+*~
+ido.last
