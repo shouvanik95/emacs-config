@@ -1,18 +1,19 @@
 
 ;; ----- smex-history -----
 (
- emacs-init-time
  package-list-packages
+ magit-init
+ emacs-init-time
  load-theme
  cd
  5x5
  arp
- dbx
 )
 
 ;; ----- smex-data -----
 (
  (load-theme . 2)
- (package-list-packages . 2)
+ (package-list-packages . 3)
  (emacs-init-time . 1)
+ (magit-init . 1)
 )

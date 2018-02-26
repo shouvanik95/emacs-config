@@ -29,6 +29,11 @@
 ;;Customization
 ;;;;;;;;;;;;;;;;;;;;
 
+;;Mac shell issues
+(require 'exec-path-from-shell)
+(when (memq window-system '(mac ns x))
+  (exec-path-from-shell-initialize))
+
 ;;Customization Load Path
 (add-to-list 'load-path "~/.emacs.d/customizations")
 
@@ -55,7 +60,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (magit avy ido-completing-read+ smex ido-vertical-mode solarized-theme doom-themes dracula-theme monokai-theme zenburn-theme auctex))))
+    (exec-path-from-shell magit avy ido-completing-read+ smex ido-vertical-mode solarized-theme doom-themes dracula-theme monokai-theme zenburn-theme auctex))))
 ;;Other Custom variables
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
