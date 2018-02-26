@@ -1,0 +1,18 @@
+
+;; ----- smex-history -----
+(
+ emacs-init-time
+ package-list-packages
+ load-theme
+ cd
+ 5x5
+ arp
+ dbx
+)
+
+;; ----- smex-data -----
+(
+ (load-theme . 2)
+ (package-list-packages . 2)
+ (emacs-init-time . 1)
+)
