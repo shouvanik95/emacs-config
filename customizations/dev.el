@@ -10,5 +10,3 @@
 
 ;; LaTeX settings / AucTex
 (load "latex-config.el")
-
-
