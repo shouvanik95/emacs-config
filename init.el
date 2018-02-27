@@ -7,7 +7,7 @@
 (setq mac-function-modifier 'super)
 
 ;;Make sure Cmd+SPC does nto clash with Alfred
-(global-set-key (kbd "C-i") 'set-mark-command)
+(global-set-key (kbd "M-i") 'set-mark-command)
 
 
 ;;;;;;;;;;;;;;;;;;;;
@@ -71,7 +71,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (auctex exec-path-from-shell magit avy ido-completing-read+ smex ido-vertical-mode solarized-theme doom-themes dracula-theme monokai-theme zenburn-theme))))
+    (yasnippet yasnippet-snippets auctex exec-path-from-shell magit avy ido-completing-read+ smex ido-vertical-mode solarized-theme doom-themes dracula-theme monokai-theme zenburn-theme))))
 ;;Other Custom variables
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

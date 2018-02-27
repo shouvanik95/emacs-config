@@ -2,19 +2,23 @@
 ;; ----- smex-history -----
 (
  package-list-packages
+ term
+ yas-expand
+ yas-minor-mode
+ eval-buffer
  c-mode
  magit-init
- emacs-init-time
- load-theme
- cd
- 5x5
 )
 
 ;; ----- smex-data -----
 (
  (load-theme . 2)
- (package-list-packages . 7)
+ (package-list-packages . 10)
  (emacs-init-time . 1)
  (magit-init . 1)
  (c-mode . 1)
+ (eval-buffer . 1)
+ (yas-minor-mode . 2)
+ (yas-expand . 1)
+ (term . 1)
 )
