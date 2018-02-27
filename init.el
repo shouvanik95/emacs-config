@@ -7,7 +7,8 @@
 (setq mac-function-modifier 'super)
 
 ;;Make sure Cmd+SPC does nto clash with Alfred
-(global-set-key (kbd "C-p") 'set-mark-command)
+(global-set-key (kbd "C-i") 'set-mark-command)
+
 
 ;;;;;;;;;;;;;;;;;;;;
 ;;Package Management
@@ -31,6 +32,13 @@
 ;;;;;;;;;;;;;;;;;;;;
 ;;Customization
 ;;;;;;;;;;;;;;;;;;;;
+
+;;Start emacs server for synctex
+(server-start)
+
+;;Backup Settings
+(setq backup-directory-alist
+          `((".*" . ,"~/.emacs-saves")))
 
 ;;Mac shell issues
 (require 'exec-path-from-shell)
@@ -63,7 +71,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (exec-path-from-shell magit avy ido-completing-read+ smex ido-vertical-mode solarized-theme doom-themes dracula-theme monokai-theme zenburn-theme auctex))))
+    (auctex exec-path-from-shell magit avy ido-completing-read+ smex ido-vertical-mode solarized-theme doom-themes dracula-theme monokai-theme zenburn-theme))))
 ;;Other Custom variables
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

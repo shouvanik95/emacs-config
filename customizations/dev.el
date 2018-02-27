@@ -1,5 +1,7 @@
 ;;Magit settings
 (global-set-key (kbd "C-x g") 'magit-status)
 
-;; AUCTeX configuration
-(load "auxtex-config.el")
+;; LaTeX settings / AucTex
+(load "latex-config.el")
+
+

@@ -1,3 +1,6 @@
+;;Load dired-x
+(require 'dired-x)
+
 ;;ido settings
 (setq ido-enable-flex-matching 1)
 (setq ido-create-new-buffer 'always)
