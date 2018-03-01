@@ -16,16 +16,16 @@
  ("/Users/" . "shouvanik/")
  ("/" . "Users/")
  ("/Users/shouvanik/Downloads/" . "hmwk4_sols_matlab/")
- ("/Users/shouvanik/.emacs.d/" . "snippets/")
- ("/Users/shouvanik/" . "652_6/")
+ ("/Users/shouvanik/.emacs.d/" . "customizations/")
+ ("/Users/shouvanik/" . ".emacs.d/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/Users/shouvanik/tmpdir/"
- "/Users/shouvanik/.emacs.d/snippets/latex-mode/"
  "/Users/shouvanik/.emacs.d/customizations/"
  "/Users/shouvanik/.emacs.d/"
+ "/Users/shouvanik/tmpdir/"
+ "/Users/shouvanik/.emacs.d/snippets/latex-mode/"
  "/Users/shouvanik/"
  "/Users/shouvanik/Dropbox/Homework/CMSC 457 18S/"
  "/Users/shouvanik/Downloads/hmwk4_sols_matlab/hmwk4/"
@@ -43,31 +43,31 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "evil-settings.el"
+ "init.el"
+ "editing.el"
  "test.tex"
  "Latex-Article"
  "ui.el"
- "init.el"
  "example.org"
- "editing.el"
  "dev.el"
  "m.tex"
  ".bash_profile"
- "navigation.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/shouvanik/.emacs.d/" (23192 16017 297083 146000) "themes/" "games/" ".git/" "elpa/" ".gitignore" "init.el" "url/" "auto-save-list/" "customizations/" "smex-items" ".DS_Store" "ido.last" "snippets/" "../" "./")
+ ("/Users/shouvanik/.emacs.d/customizations/" (23192 17042 431795 847000) "dev.el" "navigation.el" "#navigation.el#" "editing.el" "shell-integration.el" ".DS_Store" "ui.el" "evil-settings.el" "latex-config.el" "../" "./")
 
- ("/Users/shouvanik/.emacs.d/customizations/" (23192 16014 668625 640000) "dev.el" "navigation.el" "#navigation.el#" "editing.el" "shell-integration.el" ".DS_Store" "ui.el" "latex-config.el" "../" "./")
+ ("/Users/shouvanik/.emacs.d/" (23192 17038 575046 113000) "themes/" "games/" ".git/" "elpa/" ".gitignore" "init.el" "url/" "auto-save-list/" "customizations/" "smex-items" ".DS_Store" "ido.last" "snippets/" "../" "./")
 
- ("/Users/shouvanik/" (23192 16017 252772 776000) "PaladinTemp/" ".conda/" ".aliases" ".viminfo" ".bash_history" "test.tex" ".infinit/" ".gitconfig" ".cache/" ".continuum/" ".python_history" "Downloads/" "data/" ".Xauthority" "www.shadowsgovernment.com/" "test.md" ".bash_profile" ".spyder2/" "Crypto Project/" "Documents/" ".npm/" "test_atom.cpp" ".test.py.swp" "example.org" ".jupyter/" ".ipynb_checkpoints/" "OneDrive - umd.edu/" ".Trash/" "Dropbox/" "Local-Books/" ".gradle/" "Applications/" ".vimrc" "Movies/" ".ssh/" ".latexmkrc" "tmpdir/" ".anaconda/" ".idlerc/" "package-lock.json" ".bash_prompt" ".dropbox/" "Dylan typing" "Public/" "example.html" ".matlab/" "test.pdf" "shadowsgovernment.com/" ".sqlite_history" "Google Drive/" "TA Stuff/" ".bash_sessions/" "#test.c#" ".cups/" ".android/" ".emacs.d/" "Calibre Library/" ".emulator_console_auth_token" ".oracle_jre_usage/" "test.py" "Books/" ".lesshst" ".matplotlib/" "Library/" "Desktop/" ".ipython/" "Samsung/" ".gnome2/" "Code/" ".rnd" "home-wifi" ".atom/" "www.vanhoosier.com/" "Pictures/" ".local/" "auto/" "#hello.c#" ".subversion/" ".nam-port" "bin/" ".wget-hsts" ".CFUserTextEncoding" ".DS_Store" "hello.c" ".vim/" ".virtualenvs/" "Seagate_Stuff/" "652_6/" ".bash_profile-anaconda.bak" "Music/" ".gnuplot_history" ".config/" "mamushkadogs.arcekane.com/" "anaconda/" "Receipts/" ".emacs-saves/" ".swipl-dir-history/" "../" "./")
+ ("/Users/shouvanik/.emacs.d/snippets/latex-mode/" (23192 16396 214339 496000) "Latex-Article" "../" "./")
 
- ("/Users/shouvanik/.emacs.d/snippets/latex-mode/" (23192 15760 913018 758000) "Latex-Article" "../" "./")
+ ("/Users/shouvanik/tmpdir/" (23192 16145 933730 170000) "test.tex" "../" "./")
+
+ ("/Users/shouvanik/" (23192 16423 915937 672000) "PaladinTemp/" ".conda/" ".aliases" ".viminfo" ".bash_history" "test.tex" ".infinit/" ".gitconfig" ".cache/" ".continuum/" ".python_history" "Downloads/" "data/" ".Xauthority" "www.shadowsgovernment.com/" "test.md" ".bash_profile" ".spyder2/" "Crypto Project/" "Documents/" ".npm/" "test_atom.cpp" ".test.py.swp" "example.org" ".jupyter/" ".ipynb_checkpoints/" "OneDrive - umd.edu/" ".Trash/" "Dropbox/" "Local-Books/" ".gradle/" "Applications/" ".vimrc" "Movies/" ".ssh/" ".latexmkrc" "tmpdir/" ".anaconda/" ".idlerc/" "package-lock.json" ".bash_prompt" ".dropbox/" "Dylan typing" "Public/" "example.html" ".matlab/" "test.pdf" "shadowsgovernment.com/" ".sqlite_history" "Google Drive/" "TA Stuff/" ".bash_sessions/" "#test.c#" ".cups/" ".android/" ".emacs.d/" "Calibre Library/" ".emulator_console_auth_token" ".oracle_jre_usage/" "test.py" "Books/" ".lesshst" ".matplotlib/" "Library/" "Desktop/" ".ipython/" "Samsung/" ".gnome2/" "Code/" ".rnd" "home-wifi" "#bla.tex#" ".atom/" "www.vanhoosier.com/" "Pictures/" ".local/" "auto/" "#hello.c#" ".subversion/" ".nam-port" "bin/" ".wget-hsts" ".CFUserTextEncoding" ".DS_Store" "hello.c" ".vim/" ".virtualenvs/" "Seagate_Stuff/" "652_6/" ".bash_profile-anaconda.bak" "Music/" ".gnuplot_history" ".config/" "mamushkadogs.arcekane.com/" "anaconda/" "Receipts/" ".emacs-saves/" ".swipl-dir-history/" "../" "./")
 
  ("/Users/shouvanik/.emacs.d/snippets/" (23192 15760 910479 596000) "latex-mode/" "../" "./")
-
- ("/Users/shouvanik/tmpdir/" (23192 15981 520116 521000) "test.tex" "../" "./")
 
  ("/Users/shouvanik/Dropbox/Homework/CMSC 457 18S/" (23191 46211 587583 64000) "assignment_2.pdf" "assignment_3.pdf" "assignment_1.pdf" "commands.tex" "m.aux" "m.log" "mz.pdf" "a1.log" "a1.aux" "a1.fls" "Qcircuit.tex" "assignment_1.tex" "a1.fdb_latexmk" "qmacros.aux" "assignment_3.tex" "assignment_2.tex" "texput.log" "assignment_1.fdb_latexmk" "assignment_3.synctex.gz" "drafts/" "auto/" "m.tex" "a1.synctex.gz" "assignment_1.tex~" "m.pdf" "assignment_1.fls" "assignment_1.log" "assignment_1.aux" "m.synctex.gz" "assignment_3.aux" "assignment_3.log" "assignment_2.fls" ".DS_Store" "assignment_2.log" "assignment_2.aux" "pr0.pdf" "a1.pdf" "assignment_2.fdb_latexmk" "../" "./")
 

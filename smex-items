@@ -1,19 +1,19 @@
 
 ;; ----- smex-history -----
 (
- yas-visit-snippet-file
  package-list-packages
  eval-buffer
  octave-mode
  eww
  emacs-init-time
  ansi-term
+ load-theme
 )
 
 ;; ----- smex-data -----
 (
  (load-theme . 4)
- (package-list-packages . 11)
+ (package-list-packages . 12)
  (emacs-init-time . 3)
  (magit-init . 1)
  (c-mode . 1)

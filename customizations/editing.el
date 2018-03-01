@@ -18,6 +18,11 @@
 ;;Evil-mode
 ;;(load "evil-settings.el")
 
+;;Set up key-chords
+(require 'key-chord)
+(setq key-chord-two-keys-delay 0.5)
+(key-chord-mode 1)
+
 ;;Org-mode settings
 (setq org-src-fontify-natively t)
 
