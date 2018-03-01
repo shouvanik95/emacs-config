@@ -7,7 +7,7 @@
 (setq mac-function-modifier 'super)
 
 ;;Make sure Cmd+SPC does nto clash with Alfred
-(global-set-key (kbd "M-i") 'set-mark-command)
+(global-set-key (kbd "C-'") 'set-mark-command)
 
 
 ;;;;;;;;;;;;;;;;;;;;
@@ -34,7 +34,10 @@
 ;;;;;;;;;;;;;;;;;;;;
 
 ;;Start emacs server for synctex
-(server-start)
+(require 'server)
+(unless (and (fboundp 'server-running-p)
+	     (server-running-p))
+  (server-start))
 
 ;;Backup Settings
 (setq backup-directory-alist
@@ -71,7 +74,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (yasnippet yasnippet-snippets auctex exec-path-from-shell magit avy ido-completing-read+ smex ido-vertical-mode solarized-theme doom-themes dracula-theme monokai-theme zenburn-theme))))
+    (key-chord evil yasnippet yasnippet-snippets auctex exec-path-from-shell magit avy ido-completing-read+ smex ido-vertical-mode solarized-theme doom-themes dracula-theme monokai-theme zenburn-theme))))
 ;;Other Custom variables
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

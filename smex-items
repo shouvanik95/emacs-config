@@ -1,24 +1,29 @@
 
 ;; ----- smex-history -----
 (
+ yas-visit-snippet-file
  package-list-packages
- term
- yas-expand
- yas-minor-mode
  eval-buffer
- c-mode
- magit-init
+ octave-mode
+ eww
+ emacs-init-time
+ ansi-term
 )
 
 ;; ----- smex-data -----
 (
- (load-theme . 2)
- (package-list-packages . 10)
- (emacs-init-time . 1)
+ (load-theme . 4)
+ (package-list-packages . 11)
+ (emacs-init-time . 3)
  (magit-init . 1)
  (c-mode . 1)
- (eval-buffer . 1)
+ (eval-buffer . 3)
  (yas-minor-mode . 2)
  (yas-expand . 1)
  (term . 1)
+ (ansi-term . 1)
+ (octave-mode . 2)
+ (eww . 1)
+ (yas/new-snippet . 1)
+ (yas-visit-snippet-file . 1)
 )

@@ -1,0 +1,36 @@
+# -*- mode: snippet -*-
+# name: Latex-Article
+# key: sh/article
+# --
+
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper]{geometry}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{physics}
+\usepackage{graphicx}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage[USenglish]{isodate}
+\usepackage{verbatim}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}[theorem]
+\newtheorem{case}{Case}
+\newtheorem{subcase}{Case}[case]
+\newtheorem{sscase}{Case}[subcase]
+
+\title{$1}
+\author{$2 }
+\date{$3}
+
+\begin{document}
+
+\maketitle
+
+$0
+
+\end{document}

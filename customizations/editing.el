@@ -15,6 +15,12 @@
 (require 'avy)
 (global-set-key (kbd "M-s") 'avy-goto-char)
 
+;;Evil-mode
+;;(load "evil-settings.el")
+
+;;Org-mode settings
+(setq org-src-fontify-natively t)
+
 ;; These settings relate to how emacs interacts with your operating system
 (setq ;; makes killing/yanking interact with the clipboard
  x-select-enable-clipboard t

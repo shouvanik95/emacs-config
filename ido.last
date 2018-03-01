@@ -2,28 +2,39 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/shouvanik/.emacs.d/snippets/" . "latex-mode/")
+ ("/Users/shouvanik/Google Drive/CMSC764/HW3/" . "hmwk3-Shouvanik/")
+ ("/Users/shouvanik/Google Drive/CMSC764/HW2/" . "hw2_Shouvanik/")
+ ("/Users/shouvanik/Google Drive/CMSC764/" . "HW2/")
+ ("/Users/shouvanik/Google Drive/" . "CMSC764/")
  ("/Users/shouvanik/Dropbox/Homework/" . "CMSC 457 18S/")
  ("/Users/shouvanik/Dropbox/" . "Homework/")
- ("/Users/shouvanik/Downloads/hmwk4_sols_matlab/" . "hmwk3/")
+ ("/Users/shouvanik/Downloads/hmwk4_sols_matlab/" . "hmwk4/")
  ("/Users/shouvanik/.emacs.d/elpa/auctex-12.1.0/" . "doc/")
- ("/Users/shouvanik/.emacs.d/elpa/" . "yasnippet-20180218.459/")
+ ("/Users/shouvanik/.emacs.d/elpa/" . "yasnippet-snippets-20180222.440/")
  ("/Users/shouvanik/.vim/" . "autoload/")
  ("/Users/" . "shouvanik/")
  ("/" . "Users/")
  ("/Users/shouvanik/Downloads/" . "hmwk4_sols_matlab/")
- ("/Users/shouvanik/.emacs.d/" . "customizations/")
- ("/Users/shouvanik/" . ".emacs.d/")
+ ("/Users/shouvanik/.emacs.d/" . "snippets/")
+ ("/Users/shouvanik/" . "652_6/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/shouvanik/tmpdir/"
+ "/Users/shouvanik/.emacs.d/snippets/latex-mode/"
  "/Users/shouvanik/.emacs.d/customizations/"
  "/Users/shouvanik/.emacs.d/"
- "/Users/shouvanik/.emacs.d/elpa/yasnippet-20180218.459/"
- "/Users/shouvanik/Downloads/hmwk4_sols_matlab/hmwk3/"
  "/Users/shouvanik/"
- "/Users/shouvanik/Crypto Project/"
  "/Users/shouvanik/Dropbox/Homework/CMSC 457 18S/"
+ "/Users/shouvanik/Downloads/hmwk4_sols_matlab/hmwk4/"
+ "/Users/shouvanik/Google Drive/CMSC764/HW2/hw2_Shouvanik/"
+ "/Users/shouvanik/Downloads/hmwk4_sols_matlab/hmwk3/"
+ "/Users/shouvanik/Google Drive/CMSC764/HW3/hmwk3-Shouvanik/"
+ "/Users/shouvanik/.emacs.d/elpa/yasnippet-snippets-20180222.440/"
+ "/Users/shouvanik/.emacs.d/elpa/yasnippet-20180218.459/"
+ "/Users/shouvanik/Crypto Project/"
  "/Users/shouvanik/Desktop/"
  "/Users/shouvanik/Downloads/emacs-for-clojure-book1/"
  "/Users/shouvanik/Downloads/"
@@ -32,36 +43,68 @@
 
 ;; ----- ido-work-file-list -----
 (
- "dev.el"
- "yasnippet.el"
- "yasnippet-pkg.el"
- "init.el"
- "check_gradient.m"
+ "test.tex"
+ "Latex-Article"
  "ui.el"
+ "init.el"
+ "example.org"
  "editing.el"
- "hello.c"
- "yasnippet-autoloads.el"
- "quantum-crypto.tex"
+ "dev.el"
+ "m.tex"
+ ".bash_profile"
+ "navigation.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/shouvanik/.emacs.d/" (23189 51049 991411 909000) "themes/" "games/" ".git/" "elpa/" ".gitignore" "init.el" "auto-save-list/" "plugins/" "customizations/" "smex-items" ".DS_Store" "ido.last" "snippets/" "../" "./")
+ ("/Users/shouvanik/.emacs.d/" (23192 16017 297083 146000) "themes/" "games/" ".git/" "elpa/" ".gitignore" "init.el" "url/" "auto-save-list/" "customizations/" "smex-items" ".DS_Store" "ido.last" "snippets/" "../" "./")
 
- ("/Users/shouvanik/" (23189 50169 617455 289000) "PaladinTemp/" ".conda/" ".aliases" ".viminfo" ".bash_history" ".infinit/" ".gitconfig" ".cache/" ".continuum/" ".python_history" "Downloads/" "data/" ".Xauthority" "www.shadowsgovernment.com/" "test.md" ".bash_profile" ".spyder2/" "Crypto Project/" "Documents/" ".npm/" "test_atom.cpp" ".test.py.swp" ".jupyter/" ".ipynb_checkpoints/" "OneDrive - umd.edu/" ".Trash/" "Dropbox/" "Local-Books/" ".gradle/" "Applications/" ".vimrc" "Movies/" ".ssh/" ".latexmkrc" ".anaconda/" ".idlerc/" "package-lock.json" ".bash_prompt" ".dropbox/" "Dylan typing" "Public/" ".matlab/" "test.pdf" "shadowsgovernment.com/" ".sqlite_history" "Google Drive/" "TA Stuff/" ".bash_sessions/" "#test.c#" ".cups/" ".android/" ".emacs.d/" "Calibre Library/" ".emulator_console_auth_token" ".oracle_jre_usage/" "test.py" "Books/" ".lesshst" ".matplotlib/" "Library/" "Desktop/" ".ipython/" "Samsung/" ".gnome2/" "Code/" ".rnd" "home-wifi" ".atom/" "www.vanhoosier.com/" "Pictures/" ".local/" "#hello.c#" ".subversion/" ".nam-port" "bin/" ".wget-hsts" ".CFUserTextEncoding" ".DS_Store" "hello.c" ".vim/" ".virtualenvs/" "Seagate_Stuff/" "652_6/" ".bash_profile-anaconda.bak" "Music/" ".gnuplot_history" ".config/" "mamushkadogs.arcekane.com/" "anaconda/" "Receipts/" ".emacs-saves/" ".swipl-dir-history/" "../" "./")
+ ("/Users/shouvanik/.emacs.d/customizations/" (23192 16014 668625 640000) "dev.el" "navigation.el" "#navigation.el#" "editing.el" "shell-integration.el" ".DS_Store" "ui.el" "latex-config.el" "../" "./")
 
- ("/Users/shouvanik/.emacs.d/elpa/yasnippet-20180218.459/" (23189 49764 274660 494000) "yasnippet-pkg.el" "yasnippet.el" "yasnippet-autoloads.el" "yasnippet.elc" "../" "./")
+ ("/Users/shouvanik/" (23192 16017 252772 776000) "PaladinTemp/" ".conda/" ".aliases" ".viminfo" ".bash_history" "test.tex" ".infinit/" ".gitconfig" ".cache/" ".continuum/" ".python_history" "Downloads/" "data/" ".Xauthority" "www.shadowsgovernment.com/" "test.md" ".bash_profile" ".spyder2/" "Crypto Project/" "Documents/" ".npm/" "test_atom.cpp" ".test.py.swp" "example.org" ".jupyter/" ".ipynb_checkpoints/" "OneDrive - umd.edu/" ".Trash/" "Dropbox/" "Local-Books/" ".gradle/" "Applications/" ".vimrc" "Movies/" ".ssh/" ".latexmkrc" "tmpdir/" ".anaconda/" ".idlerc/" "package-lock.json" ".bash_prompt" ".dropbox/" "Dylan typing" "Public/" "example.html" ".matlab/" "test.pdf" "shadowsgovernment.com/" ".sqlite_history" "Google Drive/" "TA Stuff/" ".bash_sessions/" "#test.c#" ".cups/" ".android/" ".emacs.d/" "Calibre Library/" ".emulator_console_auth_token" ".oracle_jre_usage/" "test.py" "Books/" ".lesshst" ".matplotlib/" "Library/" "Desktop/" ".ipython/" "Samsung/" ".gnome2/" "Code/" ".rnd" "home-wifi" ".atom/" "www.vanhoosier.com/" "Pictures/" ".local/" "auto/" "#hello.c#" ".subversion/" ".nam-port" "bin/" ".wget-hsts" ".CFUserTextEncoding" ".DS_Store" "hello.c" ".vim/" ".virtualenvs/" "Seagate_Stuff/" "652_6/" ".bash_profile-anaconda.bak" "Music/" ".gnuplot_history" ".config/" "mamushkadogs.arcekane.com/" "anaconda/" "Receipts/" ".emacs-saves/" ".swipl-dir-history/" "../" "./")
 
- ("/Users/shouvanik/.emacs.d/elpa/" (23189 49763 704435 606000) "ido-vertical-mode-20160429.1037/" "with-editor-20180217.548/" "smex-20151212.1409/" "exec-path-from-shell-20180224.1916/" "async-20180119.533/" "auctex-12.1.0/" "dracula-theme-20170412.845/" "monokai-theme-20180201.553/" "ido-completing-read+-20180222.1504/" "git-commit-20180202.321/" "dash-20180206.2124/" "archives/" "all-the-icons-20180125.757/" "s-20171102.227/" "memoize-20170720.1802/" "doom-themes-20180219.1227/" "magit-20180224.1651/" "ghub-20180221.1319/" "0blayout-readme.txt" "zenburn-theme-20180222.1757/" "yasnippet-20180218.459/" "magit-popup-20180217.910/" "avy-0.4.0/" ".DS_Store" "let-alist-1.0.5/" "solarized-theme-20180101.42/" "../" "./")
+ ("/Users/shouvanik/.emacs.d/snippets/latex-mode/" (23192 15760 913018 758000) "Latex-Article" "../" "./")
 
- ("/Users/shouvanik/.emacs.d/customizations/" (23189 49577 697546 464000) "navigation.el~" "ui.el~" "dev.el" "navigation.el" "editing.el" "shell-integration.el" ".DS_Store" "ui.el" "latex-config.el" "editing.el~" "../" "./")
+ ("/Users/shouvanik/.emacs.d/snippets/" (23192 15760 910479 596000) "latex-mode/" "../" "./")
+
+ ("/Users/shouvanik/tmpdir/" (23192 15981 520116 521000) "test.tex" "../" "./")
+
+ ("/Users/shouvanik/Dropbox/Homework/CMSC 457 18S/" (23191 46211 587583 64000) "assignment_2.pdf" "assignment_3.pdf" "assignment_1.pdf" "commands.tex" "m.aux" "m.log" "mz.pdf" "a1.log" "a1.aux" "a1.fls" "Qcircuit.tex" "assignment_1.tex" "a1.fdb_latexmk" "qmacros.aux" "assignment_3.tex" "assignment_2.tex" "texput.log" "assignment_1.fdb_latexmk" "assignment_3.synctex.gz" "drafts/" "auto/" "m.tex" "a1.synctex.gz" "assignment_1.tex~" "m.pdf" "assignment_1.fls" "assignment_1.log" "assignment_1.aux" "m.synctex.gz" "assignment_3.aux" "assignment_3.log" "assignment_2.fls" ".DS_Store" "assignment_2.log" "assignment_2.aux" "pr0.pdf" "a1.pdf" "assignment_2.fdb_latexmk" "../" "./")
+
+ ("/Users/shouvanik/.infinit/" (22544 53091 0 0) "users/" "logs/" "first_launch" "passport" "device.uuid" "../" "./")
+
+ ("/Users/shouvanik/Downloads/" (23191 36388 433581 185000) "lec4.ps" "hmwk4_sols_matlab.zip" "858assgn1-1.pdf" "f.pdf" "hmwk2/" "858K_proposal.pdf" "lecture_7.ps" "630HW1_ShaopengZhu.pdf" "E-Books/" "Michael Artin-Algebra-Prentice Hall (1991).pdf" "6111 - Pokemon Black 2 (US) (frieNDS).nds" "DC/" "ALL0001/" "evil.pdf" "lec01-intro.pdf" "6111 - Pokemon Black 2 (US) (frieNDS).7z" "lpmacosx/" "lec03-pred-calc-rev-2.pdf" "qmacro_sample.tex" "Agatha Christie/" "vl378/" "[H99] Boku no Hero Academia OST [FLAC] [w Scans]/" "quantum-computing-impact/" "robust_jordans_algorithm.pdf" "hmwk4_sols_matlab/" "watch.html" "MathWorks/" "quantum-computing-impact.zip" ".localized" "Michael Artin-Algebra-Prentice Hall (1991).djvu" ".DS_Store" "smoothing_functions_draft.pdf" "hmwk2_matlab.zip" "temp/" "emacs-for-clojure-book1/" "upper_bound_note.pdf" "652HW5_SS (2)-1.pdf" "Foundations of Quantum Programming.pdf" "[Christie_Agatha]_The_Murder_at_the_Vicarage(BookZZ.org).epub" "lec02-prop-calc.pdf" "cmsc764/" "../" "./")
+
+ ("/Users/shouvanik/Google Drive/CMSC764/HW3/hmwk3-Shouvanik/" (23191 37430 829082 38000) "softplus.m" "cross_entropy.m" "grad2d.m" "mnist.h5" "cell_to_vec.m" "l1_eps.m" "create_random_net.m" "tv_objective.m" "buildmat.m" "load_mnist.m" "vec_to_cell.m" "create_classification_problem.m" "cross_entropy_grad.m" "net_grad.m" "logreg_objective.m" "l1_grad.m" "div2d.m" "logreg_grad.m" "softplus_grad.m" "check_gradient.m" "tv_grad.m" "net_objective.m" ".DS_Store" "hmwk3.m" "../" "./")
+
+ ("/Users/shouvanik/Downloads/hmwk4_sols_matlab/hmwk4/" (23191 8263 228265 351000) "net_gradient.m" "#net_gradient.m#" "hmwk4.m" "../" "./")
+
+ ("/Users/shouvanik/Dropbox/Homework/" (23191 1939 403663 0) "commands.tex" "Wu's 17S/" "Childs' 17F/" ".dropbox" "Childs' 14W/" "Icon
+" ".DS_Store" "CMSC 457 18S/" "../" "./")
+
+ ("/Users/shouvanik/Dropbox/" (23156 52851 381967 0) "Kik/" ".dropbox.cache/" "Fall17_Eastman_Filippou/" "AI/" "Homework/" ".dropbox" "Networks-project/" "Visa Application Process/" "Icon
+" ".DS_Store" "gradhillslease.pdf" "3538882.com.dsemu.drastic.apk" "../" "./")
+
+ ("/Users/shouvanik/Google Drive/CMSC764/HW3/" (23188 32282 674371 890000) "764_hmwk3_gradients.pdf" "hmwk3-Shouvanik/" ".DS_Store" "../" "./")
+
+ ("/Users/shouvanik/Google Drive/CMSC764/HW2/hw2_Shouvanik/" (23189 53167 251170 658000) "softplus.m" "cross_entropy.m" ".#hmwk2.m" "grad2d.m" "mnist.h5" "hmwk2.m" "buildmat.m" "load_mnist.m" "softmax.m" "create_classification_problem.m" "logreg_objective.m" "div2d.m" "hmwk2_results.pdf" "#hmwk2.m#" "net_objective.m" ".DS_Store" "k=10.png" "k=1.png" "../" "./")
+
+ ("/Users/shouvanik/.emacs.d/elpa/yasnippet-20180218.459/" (23189 51057 209741 841000) "yasnippet-pkg.el" "yasnippet.el" "yasnippet-autoloads.el" "yasnippet.elc" "../" "./")
+
+ ("/Users/shouvanik/.emacs.d/elpa/yasnippet-snippets-20180222.440/" (23189 51674 253325 394000) "yasnippet-snippets.el" "yasnippet-snippets-pkg.el" "yasnippet-snippets.elc" "snippets/" "yasnippet-snippets-autoloads.el" "../" "./")
+
+ ("/Users/shouvanik/Google Drive/CMSC764/HW2/" (23184 47696 227824 340000) "764_hmwk2_2017.pdf" "hw2_Shouvanik/" "hw2_Shouvanik.zip" ".DS_Store" "../" "./")
+
+ ("/Users/shouvanik/Google Drive/CMSC764/" (23184 48180 9041 959000) "HW1/" ".DS_Store" "HW3/" "HW2/" "../" "./")
+
+ ("/Users/shouvanik/Google Drive/" (23188 29644 533779 210000) "Computer Networks Core/" "Lecture Notes for 2_20.pdf" ".tmp.drivedownload/" "Icon
+" ".DS_Store" "Getting started" "CMSC764/" "../" "./")
+
+ ("/Users/shouvanik/.emacs.d/elpa/" (23189 51051 738357 817000) "ido-vertical-mode-20160429.1037/" "yasnippet-snippets-20180222.440/" "with-editor-20180217.548/" "smex-20151212.1409/" "exec-path-from-shell-20180224.1916/" "async-20180119.533/" "auctex-12.1.0/" "dracula-theme-20170412.845/" "monokai-theme-20180201.553/" "ido-completing-read+-20180222.1504/" "git-commit-20180202.321/" "dash-20180206.2124/" "archives/" "all-the-icons-20180125.757/" "s-20171102.227/" "memoize-20170720.1802/" "doom-themes-20180219.1227/" "magit-20180224.1651/" "ghub-20180221.1319/" "0blayout-readme.txt" "zenburn-theme-20180222.1757/" "yasnippet-20180218.459/" "magit-popup-20180217.910/" "avy-0.4.0/" ".DS_Store" "let-alist-1.0.5/" "solarized-theme-20180101.42/" "../" "./")
+
+ ("/Users/shouvanik/.emacs.d/plugins/" (23189 50830 243814 56000) "../" "./")
 
  ("/Users/shouvanik/Crypto Project/" (23188 64403 524230 917000) "quantum_crypto.tex~" "quantum_crypto.fdb_latexmk" "_region_.log.tex" "quantum_crypto.tex" "quantum_crypto.synctex.gz" "quantum_crypto.pdf" "_region_.log" "_region_.prv/" "quantum_crypto.fls" "quantum_crypto.log" "quantum_crypto.aux" "auto/" "_region_.tex" "../" "./")
-
- ("/Users/shouvanik/Dropbox/Homework/CMSC 457 18S/" (23188 55128 423188 721000) "assignment_2.pdf" "assignment_3.pdf" "assignment_1.pdf" "commands.tex" "mz.pdf" "a1.log" "a1.aux" "a1.fls" "Qcircuit.tex" "assignment_1.tex" "a1.fdb_latexmk" "qmacros.aux" "assignment_3.tex" "assignment_2.tex" "texput.log" "assignment_1.fdb_latexmk" "assignment_3.synctex.gz" "drafts/" "auto/" "a1.synctex.gz" "assignment_1.tex~" "assignment_1.fls" "assignment_1.log" "assignment_1.aux" "assignment_3.aux" "assignment_3.log" "assignment_2.fls" ".DS_Store" "assignment_2.log" "assignment_2.aux" "pr0.pdf" "a1.pdf" "assignment_2.fdb_latexmk" "../" "./")
-
- ("/Users/shouvanik/Dropbox/" (23156 52850 381967 0) "Kik/" ".dropbox.cache/" "Fall17_Eastman_Filippou/" "AI/" "Homework/" ".dropbox" "Networks-project/" "Visa Application Process/" "Icon
-" ".DS_Store" "gradhillslease.pdf" "3538882.com.dsemu.drastic.apk" "../" "./")
 
  ("/Users/shouvanik/Downloads/hmwk4_sols_matlab/hmwk3/" (23163 30447 0 0) "tv_objective.m~" "tv_objective.m" "inject_weights.m" "logreg_grad.m" "check_gradient.m" "tv_grad.m" "hmwk3.m" "../" "./")
 
@@ -71,12 +114,7 @@
 
  ("/Users/shouvanik/.emacs.d/elpa/auctex-12.1.0/" (23186 38125 460889 289000) "autogen.sh" "tex-buf.elc" "ChangeLog-preview.1" "aclocal.m4" "tex-site.el" "Makefile.in" "plain-tex.el" "auctex.el" "latex.elc" "prv-emacs.elc" "auctex.spec" "lpath.el" "texmathp.el" "tex-bar.elc" "mkinstalldirs" "tex-buf.el" "auctex.el.in" "prv-emacs.el" "toolbar-x.el" "preview-latex.spec" "prv-install.elc" "plain-tex.elc" "context.el" "tex-info.elc" "tex-jp.elc" "bib-cite.elc" "ChangeLog-preview" "doc/" "tex-style.el" "auctex.elc" "ChangeLog.1" "dir" "tex-info.el" "prv-xemacs.el" "tex-fold.elc" "font-latex.elc" ".gitignore" "font-latex.el" "COPYING" "circ.tex" "latex.el" "tex-fold.el" "context.elc" "prv-xemacs.elc" "README" ".elpaignore" "tex-wizard.el" "auctex-pkg.el" "toolbar-x.elc" "README.GIT" "RELEASE" "style/" "multi-prompt.elc" "bib-cite.el" "tex.el" "etc/" "preview.el" "tests/" "auctex-pkg.elc" "tex-mik.el" "prv-install.el" "tex-style.elc" "tex-site.el.in" "tex-ispell.elc" "latex/" "context-en.elc" "tex-bar.el" "tex-font.elc" "multi-prompt.el" "lpath.elc" "images/" "ChangeLog" "tex-jp.el" "tex-site.elc" "context-nl.elc" "preview-latex.info" "tex-ispell.el" "configure.ac" "build-aux/" "install-sh" "auctex-autoloads.el" "tex.elc" "texmathp.elc" "GNUmakefile" "context-en.el" "tex-wizard.elc" "auctex.info" "context-nl.el" "tex-font.el" "tex-mik.elc" "preview.elc" "../" "./")
 
- ("/Users/shouvanik/Downloads/" (23187 38616 662782 154000) "lec4.ps" "hmwk4_sols_matlab.zip" "858assgn1-1.pdf" "f.pdf" "858K_proposal.pdf" "lecture_7.ps" "630HW1_ShaopengZhu.pdf" "E-Books/" "Michael Artin-Algebra-Prentice Hall (1991).pdf" "6111 - Pokemon Black 2 (US) (frieNDS).nds" "DC/" "ALL0001/" "evil.pdf" "lec01-intro.pdf" "6111 - Pokemon Black 2 (US) (frieNDS).7z" "lpmacosx/" "lec03-pred-calc-rev-2.pdf" "qmacro_sample.tex" "Agatha Christie/" "vl378/" "[H99] Boku no Hero Academia OST [FLAC] [w Scans]/" "quantum-computing-impact/" "robust_jordans_algorithm.pdf" "hmwk4_sols_matlab/" "watch.html" "MathWorks/" "quantum-computing-impact.zip" ".localized" "Michael Artin-Algebra-Prentice Hall (1991).djvu" ".DS_Store" "smoothing_functions_draft.pdf" "temp/" "emacs-for-clojure-book1/" "upper_bound_note.pdf" "652HW5_SS (2)-1.pdf" "Foundations of Quantum Programming.pdf" "[Christie_Agatha]_The_Murder_at_the_Vicarage(BookZZ.org).epub" "lec02-prop-calc.pdf" "cmsc764/" "../" "./")
-
  ("/Users/shouvanik/Desktop/" (23187 39167 770657 539000) "contfrac.pdf" "rep.pdf" "numericaldiffproof.pdf" "classical_encoder.png" "DuchiJoWaWi14_slides.pdf" "1711.00465.pdf" "Screen Shot 2018-02-14 at 4.24.09 PM.png" "tt_spring18.pdf" "cp2hyd.pdf" ".localized" "Ch4.pdf" "Screen Shot 2018-02-14 at 4.23.49 PM.png" ".DS_Store" "lec1.pdf" ".Serre - Linear Representations Of Finite Groups (Springer gtm 42 1977).pdf.icloud" "../" "./")
-
- ("/Users/shouvanik/Dropbox/Homework/" (23146 10161 842981 612000) "commands.tex" "Wu's 17S/" "Childs' 17F/" ".dropbox" "Childs' 14W/" "Icon
-" ".DS_Store" "CMSC 457 18S/" "../" "./")
 
  ("/Users/shouvanik/Downloads/emacs-for-clojure-book1/" (23187 19317 206146 460000) "themes/" "elpa/" ".gitignore" "README.md" "init.el" "customizations/" ".DS_Store" "init.el~" "../" "./")
 
