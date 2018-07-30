@@ -10,3 +10,12 @@
 
 ;; LaTeX settings / AucTex
 (load "latex-config.el")
+
+;;Matlab 
+(require 'matlab)
+(add-to-list
+ 'auto-mode-alist
+ '("\\.m$" . matlab-mode))
+(setq matlab-indent-function t)
+(setq matlab-shell-command "/Applications/MATLAB_R2017a.app/bin/matlab")
+(setq matlab-shell-command-switches (list "-nodesktop"))

@@ -1,0 +1,128 @@
+dired ~
+ls
+git rm -r --cached .
+git add .
+ls
+git status
+find-file .gitignore
+git rm -r --cached .
+git add .
+git status
+git commit -m "Removed gitignore files"
+git push
+ls
+cd
+ld
+ls
+cp .emacs.d emacs_tmp.d
+cp -r .emacs.d emacs_tmp.d
+ls
+cd .emacs.d
+ls
+cp init.el init-bck.el
+ls
+init.el
+find-file init.el
+ls
+cd .emacs.d
+ls
+cp init-bck.el init.el
+find-file init.el
+cd /Applications/
+ls
+ls
+cd MATLAB_R2017a.app/
+ls
+cd bin
+pwd
+ls
+cd OneDrive\ -\ umd.edu/
+ls
+cd quantum-optimization-project/
+ls
+cd calculating-convolutions/
+ls
+find-file convolution-algorithm.tex
+ls
+matlab
+matlab -nodesktop -nosplash
+ls
+cp assignment_4.tex assignment_4_sol.tex
+ls
+find-file assignment_4_sol.tex 
+cd ..
+ls
+cd "Childs' 14W"
+ls
+cd assignments/
+ls
+find_file a4.tex
+find-file a4.tex
+ls
+cp factordist.pdf ../../CMSC\ 457\ 18S/
+cd OneDrive\ -\ umd.edu/quantum-optimization-project/simulations/
+ks
+ls
+find-file-other-window
+find-file-other-window jordan1d.m
+ls
+matlab
+ls
+matlab -nodesktop -nosplash
+split-window-threshold nil
+setq split-window-threshold nil
+setq split-width-threshold nil
+* 0.9 $(- 70 27)
+cd ..
+cd ~/Downloads/
+ls
+ls *master
+cd *master
+ls
+cd hmwk7
+ls
+find-file grad_descent.m
+clear
+
+ls
+cd ,,
+cd ..
+cd hmwk3
+ls
+cd ..
+ls
+cd cd ~/Google\ Drive/
+ls
+cd ~/Google\ Drive/
+cd CMSC764/
+cd HW2
+ls
+cd hw2_Shouvanik/
+ls
+cp logreg_objective.m ../../HW6/hmwk6-Shouvanik/
+ls
+cd ..
+clear
+
+brew install poppler automake
+ls
+who let the dogs out
+who am i
+ifconfig
+ls
+rm upper-restricted*
+ls
+git stash
+ls
+git stash
+man pdflatex
+ls
+ls
+ls
+ag convex
+cd ..
+ls
+cd submission
+ls
+ag convex
+ls

@@ -1,0 +1,92 @@
+* Package and Load Path Setup
+
+Setup packages and repositories
+
+#+BEGIN_SRC emacs-lisp
+  (require 'package)
+  (add-to-list 'package-archives
+               '("marmalade" . "http://marmalade-repo.org/packages/") t)
+  (add-to-list 'package-archives
+               '("tromey" . "http://tromey.com/elpa/") t)
+  (add-to-list 'package-archives
+               '("melpa" . "http://melpa.milkbox.net/packages/") t)
+#+END_SRC
+
+Initialize Packages
+
+#+BEGIN_SRC emacs-lisp
+  (package-initialize)
+#+END_SRC
+
+Install and setup use-package
+
+#+BEGIN_SRC emacs-lisp
+  (package-install 'use-package)
+#+END_SRC
+
+* Setup Key-bindings for Mac
+  
+On a mac set-up modifier keys to work as one would expect.
+The Caps Lock key is mapped to the Ctrl for convenience on the laptop.
+
+#+BEGIN_SRC emacs-lisp
+  (setq mac-command-modifier 'meta)
+  (setq mac-left-option-modifier 'meta)
+  (setq mac-right-option-modifier 'control)
+  (setq mac-control-modifier 'control)
+  (setq mac-function-modifiew 'control)
+#+END_SRC
+ 
+* Start an emacs server
+
+Typically the server will already be running because we start it at login.
+If it is not we ensure that the server is started when we open the emacs.
+
+#+BEGIN_SRC emacs-lisp
+  (require 'server)
+  (unless (and (fboundp 'server-running-p)
+               (server-running-p))
+    (server-start))
+#+END_SRC
+
+* UI Settings
+
+** Appearance Settings
+
+*** Startup Messages
+
+#+BEGIN_SRC emacs-lisp
+  (setq inhibit-startup-message t
+        inhibit-startup-echo-area-message t)
+#+END_SRC
+
+*** Remove GUI Aids
+
+#+BEGIN_SRC emacs-lisp
+  (menu-bar-mode -1)
+  (tool-bar-mode -1)
+  (scroll-bar-mode -1)
+#+END_SRC
+
+** Fonts, Looks, Window Management
+
+Set font to 14 pt Monaco
+
+#+BEGIN_SRC emacs-lisp
+  (set-face-attribute 'default nil :font "Monaco" :height 140)
+#+END_SRC
+
+
+
+** Theme Setup
+   
+* Editing Settings
+
+* Development Settings
+
+  
+
+
+
+
+

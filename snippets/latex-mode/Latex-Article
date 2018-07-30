@@ -4,32 +4,121 @@
 # --
 
 \documentclass[11pt]{article}
-\usepackage[utf8]{inputenc}
-\usepackage[a4paper]{geometry}
-\usepackage[english]{babel}
-\usepackage{amsmath}
-\usepackage{amsthm}
-\usepackage{amssymb}
+
+\usepackage[margin=1in]{geometry}
+
+\usepackage{amssymb,amsmath,amsthm,amsfonts}
 \usepackage{physics}
+\usepackage[short]{optidef}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage[numbers,comma,sort&compress]{natbib}
+\usepackage{authblk}
 \usepackage{graphicx}
-\usepackage{algorithm}
-\usepackage[noend]{algpseudocode}
-\usepackage[USenglish]{isodate}
-\usepackage{verbatim}
+\usepackage[font=small]{caption}
+\usepackage[labelformat=simple]{subcaption}
+\usepackage{float}
+\usepackage[ruled,vlined,linesnumbered]{algorithm2e}
+\usepackage{footnote}
+\usepackage{xcolor}
+
+\usepackage[colorlinks]{hyperref}
+
+\newtheorem{fact}{Fact}[section]
 
 \newtheorem{theorem}{Theorem}
-\newtheorem{lemma}{Lemma}[theorem]
-\newtheorem{case}{Case}
-\newtheorem{subcase}{Case}[case]
-\newtheorem{sscase}{Case}[subcase]
+\newtheorem{definition}{Definition}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newtheorem{example}{Example}
+\newtheorem{corollary}{Corollary}
+\newtheorem{remark}{Remark}
 
-\title{$1}
-\author{$2 }
-\date{$3}
+\numberwithin{equation}{section}
+\numberwithin{theorem}{section}
+\numberwithin{definition}{section}
+\numberwithin{lemma}{section}
+\numberwithin{proposition}{section}
+\numberwithin{example}{section}
+\numberwithin{corollary}{section}
+\numberwithin{remark}{section}
+
+\newcommand{\eq}[1]{(\ref{eq:#1})}
+\newcommand{\eqn}[1]{(\ref{eqn:#1})}
+\newcommand{\thm}[1]{\hyperref[thm:#1]{Theorem~\ref*{thm:#1}}}
+\newcommand{\cor}[1]{\hyperref[cor:#1]{Corollary~\ref*{cor:#1}}}
+\newcommand{\defn}[1]{\hyperref[defn:#1]{Definition~\ref*{defn:#1}}}
+\newcommand{\lem}[1]{\hyperref[lem:#1]{Lemma~\ref*{lem:#1}}}
+\newcommand{\prop}[1]{\hyperref[prop:#1]{Proposition~\ref*{prop:#1}}}
+\newcommand{\fig}[1]{\hyperref[fig:#1]{Figure~\ref*{fig:#1}}}
+\newcommand{\tab}[1]{\hyperref[tab:#1]{Table~\ref*{tab:#1}}}
+\newcommand{\algo}[1]{\hyperref[algo:#1]{Algorithm~\ref*{algo:#1}}}
+\renewcommand{\sec}[1]{\hyperref[sec:#1]{Section~\ref*{sec:#1}}}
+
+\newcommand{\append}[1]{\hyperref[append:#1]{Appendix~\ref*{append:#1}}}
+\newcommand{\fac}[1]{\hyperref[fac:#1]{Fact~\ref*{fac:#1}}}
+\newcommand{\lin}[1]{\hyperref[lin:#1]{Line~\ref*{lin:#1}}}
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\E}{\mathbb{E}}
+
+\newcommand{\logeq}{\Leftrightarrow}
+
+\let\var\relax
+
+\DeclareMathOperator{\poly}{poly}
+\DeclareMathOperator{\sgn}{sgn}
+\DeclareMathOperator{\spn}{span}
+\DeclareMathOperator{\anc}{anc}
+\DeclareMathOperator{\var}{Var}
+
+\DeclareMathOperator{\EVAL}{EVAL}
+\DeclareMathOperator{\MEM}{MEM}
+\DeclareMathOperator{\SEP}{SEP}
+\DeclareMathOperator{\OPT}{OPT}
+\DeclareMathOperator{\adv}{ADV}
+
+\renewcommand{\d}{\mathrm{d}}
+\renewcommand{\emptyset}{\varnothing}
+\def\Tr{\operatorname{Tr}}\def\atanh{\operatorname{atanh}}\def\:{\hbox{\bf:}}
+\newcommand{\range}[1]{[#1]}
+
+\newcommand{\hd}[1]{\vspace{4mm} \noindent \textbf{#1}}
+\def \eps {\epsilon}
+
+\makeatletter
+\newcommand{\doubletilde}[1]{{%
+  \mathpalette\double@tilde{#1}%
+}}
+\newcommand{\double@tilde}[2]{%
+  \sbox\z@{$\m@th#1\tilde{#2}$}%
+  \ht\z@=.9\ht\z@
+  \tilde{\box\z@}%
+}
+\makeatother
+
+\let\oldnl\nl% Store \nl in \oldnl
+\newcommand{\nonl}{\renewcommand{\nl}{\let\nl\oldnl}}% Remove line number for one line
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 
+\title{$1}
+
+\author{$2}
+
+\date{$3}
+
 \maketitle
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 $0
 

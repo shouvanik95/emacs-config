@@ -1,29 +1,88 @@
 
 ;; ----- smex-history -----
 (
- package-list-packages
- eval-buffer
- octave-mode
- eww
- emacs-init-time
- ansi-term
  load-theme
+ sh/load-dark-theme
+ sh/load-light-theme
+ helm-M-x
+ helm-find-files
+ package-list-packages
+ package-install
 )
 
 ;; ----- smex-data -----
 (
- (load-theme . 4)
- (package-list-packages . 12)
- (emacs-init-time . 3)
+ (load-theme . 107)
+ (package-list-packages . 39)
+ (emacs-init-time . 10)
  (magit-init . 1)
  (c-mode . 1)
- (eval-buffer . 3)
+ (eval-buffer . 9)
  (yas-minor-mode . 2)
  (yas-expand . 1)
- (term . 1)
- (ansi-term . 1)
- (octave-mode . 2)
- (eww . 1)
+ (term . 2)
+ (ansi-term . 4)
+ (octave-mode . 3)
+ (eww . 6)
  (yas/new-snippet . 1)
- (yas-visit-snippet-file . 1)
+ (yas-visit-snippet-file . 7)
+ (flyspell-mode . 2)
+ (calc-grade . 1)
+ (tetris . 8)
+ (eshell . 26)
+ (package-install . 5)
+ (eval-region . 1)
+ (evil-normal-state . 1)
+ (time-stamp . 1)
+ (server-start . 4)
+ (indent-region . 5)
+ (recover-this-file . 1)
+ (butterfly . 2)
+ (doctor . 2)
+ (run-python . 1)
+ (matlab-shell . 5)
+ (evil-mode . 4)
+ (pdf-tools-install . 4)
+ (package-autoremove . 4)
+ (helm-spotify . 2)
+ (customize . 1)
+ (ediff . 4)
+ (dired . 2)
+ (xwidget-webkit-browse-url . 1)
+ (load-light-theme . 1)
+ (load-dark-theme . 1)
+ (toggle-frame-fullscreen . 5)
+ (describe-variable . 1)
+ (describe-function . 2)
+ (revert-buffer . 5)
+ (toggle-frame-maximized . 3)
+ (sh/load-light-theme . 4)
+ (sh/load-dark-theme . 5)
+ (package-reinstall . 1)
+ (color-theme-sanityinc-tomorrow-eighties . 1)
+ (kill-word . 2)
+ (yas/visit-snippet-file . 1)
+ (bibtex-clean-entry . 2)
+ (dunnet . 2)
+ (TeX-master-file-ask . 25)
+ (find-file . 1)
+ (normal-mode . 1)
+ (LaTeX-mode . 4)
+ (testcover-this-defun . 1)
+ (dired-do-query-replace-regexp . 1)
+ (reftex-search-document . 1)
+ (reftex-isearch-minor-mode . 1)
+ (reftex-query-replace-document . 9)
+ (switch-to-buffer . 1)
+ (ag-project . 1)
+ (replace-regexp . 4)
+ (evil-emacs-state . 1)
+ (locate . 1)
+ (occur . 1)
+ (query-replace-regexp . 2)
+ (TeX-error-overview . 2)
+ (find-file-other-window . 1)
+ (ispell . 2)
+ (helm-find-files . 1)
+ (helm-M-x . 1)
 )

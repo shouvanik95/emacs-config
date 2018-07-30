@@ -1,0 +1,25 @@
+;; -*- emacs-lisp -*- <18/03/13 17:43:34 /Users/shouvanik/.emacs.d/tramp>
+;; Tramp connection history.  Don't change this file.
+;; You can delete it, forcing Tramp to reapply the checks.
+
+((["scp" "shouv" "junkfood.cs.umd.edu" nil nil]
+  ("uname" "Linux 3.10.0-693.11.6.el7.x86_64")
+  ("locale" "LC_ALL=en_US.utf8")
+  ("test" "test")
+  ("remote-path"
+   ("/usr/bin" "/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("~" "/fs/junkfood/shouv")
+  ("stat" nil)
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("id" "/usr/bin/id")
+  ("gid-string" "shouv")
+  ("gid-integer" 13432)
+  ("readlink" "\\readlink")
+  ("file-exists" "test -e")
+  ("env-u-option" t)
+  ("ls" "/usr/bin/ls --color=never")
+  ("ls-dired" t)
+  ("git" "\\git")))

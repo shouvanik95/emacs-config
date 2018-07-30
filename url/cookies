@@ -3,12 +3,17 @@
 
 (setq url-cookie-storage
  '((".google.com"
-  [url-cookie "1P_JAR" "2018-03-01-01" "31-Mar-2018 01:30:08.00 GMT" "/" ".google.com" nil]
-  [url-cookie "NID" "124=m1RQ-cRoIflYyXgvAhday0_S1eMXqjRrt7RFciT0eYJadBE-OnWxcxrJ-hQHFZMvfK9hcj34VsmEhC0S8QYC0Al8HBWOtfJ4s3IGi8lUeRbXuG6TGKVmzGi7jthJgoVQ" "31-Aug-2018 01:30:08.00 GMT" "/" ".google.com" nil]
-  [url-cookie "HttpOnly" nil "31-Aug-2018 01:30:08.00 GMT" "/" ".google.com" nil]))
+  [url-cookie "NID" "128=lDe-ROvmtzwLeBuzHVCPYNPl_b3AYQumzBiL5DlfHdVfVTU_bLzAT60yKjbmtt_vfSJlP5tErXx0t2HXstj23nB9r0HQItFobmMok5TOrARvIK3S9CUTr64w99_sTsY6" "16-Oct-2018 07:09:11.00 GMT" "/" ".google.com" nil]
+  [url-cookie "1P_JAR" "2018-07-19-15" "18-Aug-2018 15:19:37.00 GMT" "/" ".google.com" nil]
+  [url-cookie "CGIC" "IgMqLyo" "18-Jan-2019 06:14:13.00 GMT" "/complete/search" ".google.com" nil]
+  [url-cookie "HttpOnly" nil "18-Jan-2019 06:14:13.00 GMT" "/complete/search" ".google.com" nil]
+  [url-cookie "CGIC" "IgMqLyo" "18-Jan-2019 06:14:13.00 GMT" "/search" ".google.com" nil]
+  [url-cookie "HttpOnly" nil "18-Jan-2019 06:14:13.00 GMT" "/search" ".google.com" nil]))
 )
 (setq url-cookie-secure-storage
- 'nil)
+ '(("reddit.com"
+  [url-cookie "loid" "00000000001b6njbbz.2.1525497969979.Z0FBQUFBQmE3VUJ4UXVWbjhVWjNtM0ZXSWtHQVRxYjYxYUxYakRTNXY2cTByNmNFdWdEU1BIZWtTb01feXJKekktdU5aeHI0djNLbU9DcHIxTklqd3dKLWFkblViYTBYVDBmcHhDRHYzOUdOZWFYZHgtMjh5eFJlT2FydGtCNlFfMlphNnFIbFZENzY" "04-May-2020 05:26:09.00 GMT" "/" "reddit.com" t]))
+)
 
 ;; Local Variables:
 ;; version-control: never
