@@ -2,13 +2,15 @@
 ;; Automatically generated file!!! DO NOT EDIT!!!
 
 (setq url-cookie-storage
- '((".google.com"
-  [url-cookie "NID" "128=lDe-ROvmtzwLeBuzHVCPYNPl_b3AYQumzBiL5DlfHdVfVTU_bLzAT60yKjbmtt_vfSJlP5tErXx0t2HXstj23nB9r0HQItFobmMok5TOrARvIK3S9CUTr64w99_sTsY6" "16-Oct-2018 07:09:11.00 GMT" "/" ".google.com" nil]
-  [url-cookie "1P_JAR" "2018-07-19-15" "18-Aug-2018 15:19:37.00 GMT" "/" ".google.com" nil]
-  [url-cookie "CGIC" "IgMqLyo" "18-Jan-2019 06:14:13.00 GMT" "/complete/search" ".google.com" nil]
-  [url-cookie "HttpOnly" nil "18-Jan-2019 06:14:13.00 GMT" "/complete/search" ".google.com" nil]
+ '((".youtube.com"
+  [url-cookie "VISITOR_INFO1_LIVE" "sKq8y-dDVsA" "Tue, 05-Feb-2019 11:36:56 GMT" "/" ".youtube.com" nil]
+  [url-cookie "PREF" "f1=40000000" "Tue, 09-Apr-2019 23:29:56 GMT" "/" ".youtube.com" nil])
+ (".google.com"
+  [url-cookie "HttpOnly" nil "18-Jan-2019 06:14:13.00 GMT" "/search" ".google.com" nil]
   [url-cookie "CGIC" "IgMqLyo" "18-Jan-2019 06:14:13.00 GMT" "/search" ".google.com" nil]
-  [url-cookie "HttpOnly" nil "18-Jan-2019 06:14:13.00 GMT" "/search" ".google.com" nil]))
+  [url-cookie "HttpOnly" nil "18-Jan-2019 06:14:13.00 GMT" "/complete/search" ".google.com" nil]
+  [url-cookie "CGIC" "IgMqLyo" "18-Jan-2019 06:14:13.00 GMT" "/complete/search" ".google.com" nil]
+  [url-cookie "NID" "128=lDe-ROvmtzwLeBuzHVCPYNPl_b3AYQumzBiL5DlfHdVfVTU_bLzAT60yKjbmtt_vfSJlP5tErXx0t2HXstj23nB9r0HQItFobmMok5TOrARvIK3S9CUTr64w99_sTsY6" "16-Oct-2018 07:09:11.00 GMT" "/" ".google.com" nil]))
 )
 (setq url-cookie-secure-storage
  '(("reddit.com"

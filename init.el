@@ -64,3 +64,25 @@
 ;;Load general Development settings
 (load "dev.el")
 
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   (quote
+    ("ae3a3bed17b28585ce84266893fa3a4ef0d7d721451c887df5ef3e24a9efef8c" default)))
+ '(helm-external-programs-associations (quote (("pdf" . "open"))))
+ '(package-selected-packages
+   (quote
+    (py-autopep8 haskell-mode cider clojure-mode slime speed-type rainbow-delimiters rainbow-delimeters base16-theme flycheck ace-window 0blayout ein elpy spaceline-all-the-icons spaceline spacemacs-theme helm-projectile projectile helm-spotify-plus helm-swoop zenburn-theme yasnippet-snippets use-package solarized-theme smex pdf-tools monokai-theme moe-theme matlab-mode magit linum-relative key-chord ido-vertical-mode ido-completing-read+ helm gruvbox-theme green-phosphor-theme expand-region exec-path-from-shell evil-leader dracula-theme counsel company color-theme-sanityinc-tomorrow avy auctex-latexmk ag)))
+ '(pdf-misc-print-programm "/usr/bin/lpr")
+ '(pdf-misc-print-programm-args
+   (quote
+    ("-o media=Letter" "-o fitplot" "-o sides=two-sided-long-edge"))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

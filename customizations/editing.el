@@ -12,10 +12,16 @@
 
 ;; Avys settings
 (require 'avy)
-(global-set-key (kbd "M-s") 'avy-goto-char)
+(global-set-key (kbd "C-;") 'avy-goto-char)
+(global-set-key (kbd "C-'") 'avy-goto-char-timer)
+(global-set-key (kbd "M-g f") 'avy-goto-line)
+(global-set-key (kbd "M-g w") 'avy-goto-word-1)
+(global-set-key (kbd "M-g e") 'avy-goto-word-0)
+(avy-setup-default)
+(global-set-key (kbd "C-c C-j") 'avy-resume)
 
 ;;Evil-mode
-(load "evil-settings.el")
+;; (load "evil-settings.el")
 
 ;;Org mode
 (setq org-src-fontify-natively t)
@@ -36,8 +42,8 @@
 (setq company-idle-delay 0)
 (setq company-minimum-prefix-length 3)
 
-;;Octave settings
-;;(add-to-list 'auto-mode-alist '("\\.m$" . octave-mode))
+;; Load PDF-settings
+(load "pdf-settings.el")
 
 ;; These settings relate to how emacs interacts with your operating system
 (setq ;; makes killing/yanking interact with the clipboard

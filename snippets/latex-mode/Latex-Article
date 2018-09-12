@@ -11,7 +11,7 @@
 \usepackage{physics}
 \usepackage[short]{optidef}
 \usepackage{mathtools}
-\usepackage{enumitem}
+\usepackage[shortlabels]{enumitem}
 \usepackage[numbers,comma,sort&compress]{natbib}
 \usepackage{authblk}
 \usepackage{graphicx}

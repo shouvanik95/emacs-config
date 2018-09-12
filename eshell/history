@@ -1,95 +1,3 @@
-dired ~
-ls
-git rm -r --cached .
-git add .
-ls
-git status
-find-file .gitignore
-git rm -r --cached .
-git add .
-git status
-git commit -m "Removed gitignore files"
-git push
-ls
-cd
-ld
-ls
-cp .emacs.d emacs_tmp.d
-cp -r .emacs.d emacs_tmp.d
-ls
-cd .emacs.d
-ls
-cp init.el init-bck.el
-ls
-init.el
-find-file init.el
-ls
-cd .emacs.d
-ls
-cp init-bck.el init.el
-find-file init.el
-cd /Applications/
-ls
-ls
-cd MATLAB_R2017a.app/
-ls
-cd bin
-pwd
-ls
-cd OneDrive\ -\ umd.edu/
-ls
-cd quantum-optimization-project/
-ls
-cd calculating-convolutions/
-ls
-find-file convolution-algorithm.tex
-ls
-matlab
-matlab -nodesktop -nosplash
-ls
-cp assignment_4.tex assignment_4_sol.tex
-ls
-find-file assignment_4_sol.tex 
-cd ..
-ls
-cd "Childs' 14W"
-ls
-cd assignments/
-ls
-find_file a4.tex
-find-file a4.tex
-ls
-cp factordist.pdf ../../CMSC\ 457\ 18S/
-cd OneDrive\ -\ umd.edu/quantum-optimization-project/simulations/
-ks
-ls
-find-file-other-window
-find-file-other-window jordan1d.m
-ls
-matlab
-ls
-matlab -nodesktop -nosplash
-split-window-threshold nil
-setq split-window-threshold nil
-setq split-width-threshold nil
-* 0.9 $(- 70 27)
-cd ..
-cd ~/Downloads/
-ls
-ls *master
-cd *master
-ls
-cd hmwk7
-ls
-find-file grad_descent.m
-clear
-
-ls
-cd ,,
-cd ..
-cd hmwk3
-ls
-cd ..
 ls
 cd cd ~/Google\ Drive/
 ls
@@ -126,3 +34,95 @@ cd submission
 ls
 ag convex
 ls
+ls
+emacs -nw
+dired shouv@openlabs.umiacs.umd.edu
+dired shouv@openlabs.umiacs.umd.edu:~
+ls
+conda install jedi
+conda install flake8
+conda install autopep8
+conda install yapf
+conda install -c conda-forge autopep8
+conda install -c conda-forge yapf
+conda update jupyter
+ls
+jupyter --version
+jupyter console
+conda env list
+conda update --all
+conda search python
+conda info --envs
+conda create -n py37 python=3.7 anaconda
+source activate py37
+find-file-other-window .bashrc
+ls
+ls -a 
+find-file-other-window .bash_profile
+which activate
+ls /anaconda/bin
+cd anaconda/bin/
+ls
+cd activate
+ls -l
+chmod +x activate
+which activate
+cd
+source activate py37
+ls
+git init
+pip install qiskit
+pip uninstall qiskit
+pip install --upgrade pip
+conda install -c anaconda cython
+pip install qiskit
+cd
+ls
+cd OneDrive\ -\ umd.edu/quantum-optimization-project/submission/
+ls
+latexmk general-convex.tex
+clear
+cd ../../Research\ Papers/
+ls
+git init
+cd ../Reading Material
+cd ../Reading\ Material/
+ls
+git init
+cd ..
+cd resea
+cd Research\ Papers/
+ls
+find-file Xiaodi-Tongyang-SDP.pdf 
+ls
+cd miniconda
+cd miniconda3/
+ls
+cd pkgs
+ls
+git init
+python -v
+python
+java -version
+ls
+curl https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein > leinsudo mkdir -p /usr/local/bin/sudo mv lein /usr/local/bin/leinsudo chmod a+x /usr/local/bin/lein
+lein
+cd
+ls
+lein new app learn-clojure
+ls
+cd learn-clojure
+ls
+cd src
+ls
+cd ..
+ls
+git init
+cd src
+ls
+cd learn_clojure/
+ls
+find-file core.clj 
+git init
+source activate py27
+git init

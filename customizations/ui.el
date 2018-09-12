@@ -5,21 +5,11 @@
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
 
-;;Fullscreen shortcut
-(global-set-key (kbd "M-i") 'toggle-frame-fullscreen)
-
 ;;Show line numbers
 (global-linum-mode 1)
 (require 'linum-relative)
 (linum-relative-global-mode)
 (setq linum-relative-current-symbol "")
-
-;;Setup for PDFtools
-(add-hook 'pdf-view-mode-hook (lambda() (linum-mode -1)))
-(add-hook 'pdf-view-mode-hook (lambda() (linum-relative-mode -1)))
-;; (add-hook 'doc-view-mode-hook (pdf-tools-install))
-(add-hook 'doc-view-mode-hook (lambda() (linum-mode -1)))
-(add-hook 'doc-view-mode-hook (lambda() (linum-relative-mode -1)))
 
 ;; Highlight current line
 (global-hl-line-mode 1)
@@ -46,11 +36,24 @@
 ;;Theme
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 (add-to-list 'load-path "~/.emacs.d/themes")
-;; Written this way because Solarized doesnt work in the terminaln
+;; Written this way because Solarized doesnt work in the terminal
 
-(defvar my-light-theme 'gruvbox-light-soft)
-(defvar my-dark-theme 'gruvbox-dark-medium)
-(defvar term-theme 'sanityinc-tomorrow-night)
+(defun sh/set-tomorrow-themes ()
+  (progn (defvar my-light-theme 'sanityinc-tomorrow-day)
+	 (defvar my-dark-theme 'sanityinc-tomorrow-night)
+	 (defvar term-theme 'sanityinc-tomorrow-night)))
+
+(defun sh/set-gruvbox-themes ()
+  (progn (defvar my-light-theme 'gruvbox-dark-medium)
+	 (defvar my-dark-theme 'gruvbox-light-soft)
+	 (defvar term-theme 'gruvbox-dark-medium)))
+
+(defun sh/set-spacemacs-themes ()
+  (progn (defvar my-light-theme 'spacemacs-dark)
+	 (defvar my-dark-theme 'spacemacs-light)
+	 (defvar term-theme 'spacemaces-dark)))
+
+(sh/set-tomorrow-themes)
 
 (if (display-graphic-p)
     (load-theme my-dark-theme 1)
@@ -60,13 +63,24 @@
   "Load a dark theme for emacs"
   (interactive)
   (load-theme my-dark-theme 1)
+  (spaceline-emacs-theme)
   )
 
 (defun sh/load-light-theme ()
   "Load a light theme for emacs"
   (interactive)
   (load-theme my-light-theme 1)
+  (spaceline-emacs-theme)
   )
+
+;; Spaceline
+(setq powerline-image-apple-rgb t)
+(require 'spaceline-config)
+(require 'spaceline-all-the-icons)
+(spaceline-emacs-theme)
+
+;;Rainbow-delimiters
+(add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
 
 ;;Font
 (set-face-attribute 'default nil :font "Monaco" :height 140)
@@ -76,3 +90,9 @@
 
 ;;Window Switching using Windmove
 (windmove-default-keybindings)
+
+;;Ace-window setup
+(require 'ace-window)
+(global-set-key (kbd "M-o") 'ace-window)
+(setq aw-keys '(?a ?s ?d ?f ?g ?h ?j ?k ?l))
+(setq aw-dispatch-always 1)
