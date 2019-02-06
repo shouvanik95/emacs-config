@@ -1,10 +1,9 @@
-1;; AucTeX
+;; AucTeX
 (setq TeX-auto-save t)
 (setq TeX-parse-self t)
 (setq TeX-save-query nil)
 (setq-default TeX-master t)
 (add-hook 'LaTeX-mode-hook 'visual-line-mode)
-(add-hook 'LaTeX-mode-hook 'flyspell-mode)
 (add-hook 'LaTeX-mode-hook 'LaTeX-math-mode)
 (add-hook 'LaTeX-mode-hook 'turn-on-reftex)
 (add-hook 'LaTeX-mode-hook 'TeX-fold-mode)
@@ -27,6 +26,19 @@
 (setq TeX-view-program-selection '((output-pdf "PDF Viewer")))
 (setq TeX-view-program-list
       '(("PDF Viewer" "/Applications/Skim.app/Contents/SharedSupport/displayline -b -g %n %o %b")))
+
+;; Set up org ref for bibliography management
+(use-package org-ref
+  :ensure t
+  :config
+  (setq org-ref-bibliography-notes "~/OneDrive - umd.edu/bibliography/notes.org"
+	org-ref-default-bibliography '("~/OneDrive - umd.edu/bibliography/references.bib")
+	org-ref-pdf-directory "~/OneDrive - umd.edu/Papers/")
+  ;; open pdf with system pdf viewer (works on mac)
+  (setq bibtex-completion-pdf-open-function
+	(lambda (fpath)
+	  (start-process "open" "*open*" "open" fpath)))
+  (require 'org-ref))
 
 ;; ;; pdfview and auctex
 ;; (setq TeX-view-program-selection '((output-pdf "PDF Tools"))

@@ -1,22 +1,23 @@
 ;;This file defines my UI settings for Emacs. To load it add (load "ui.el") to init.el
 
-;;Hide and configure toolbars
-(menu-bar-mode -1)
+;;Hide and configure toolbars.
+;;There is no point to hiding the menubar on MacOS. They're not very intrusive.
+;(menu-bar-mode -1)
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
 
 ;;Show line numbers
 (global-linum-mode 1)
-(require 'linum-relative)
-(linum-relative-global-mode)
-(setq linum-relative-current-symbol "")
+;; (require 'linum-relative)
+;; (linum-relative-global-mode)
+;; (setq linum-relative-current-symbol "")
 
 ;; Highlight current line
 (global-hl-line-mode 1)
 
 ;;Scroll normally
 (setq scroll-conservatively 100)
- 
+
 ;; Don't show native OS scroll bars for buffers because they're redundant
 (when (fboundp 'scroll-bar-mode)
   (scroll-bar-mode -1))
@@ -33,10 +34,30 @@
 (blink-cursor-mode 1)
 (setq-default cursor-type 'bar)
 
-;;Theme
+;;Theme Settings
+;;(Note: Some nice themes (solarized dark) don't work in the terminal
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 (add-to-list 'load-path "~/.emacs.d/themes")
-;; Written this way because Solarized doesnt work in the terminal
+
+;;Add advice to load-theme to make it first disable current themes
+;;Also add advice to set the powerline to be nice afterwards
+(defun disable-all-themes ()
+  "disable all active themes."
+  (dolist (i custom-enabled-themes)
+    (disable-theme i)))
+
+(defadvice load-theme (before disable-themes-first activate)
+  (disable-all-themes))
+
+(defun sh/fix-spaceline ()
+  "Reload the spaceline"
+  (interactive)
+  (spaceline-emacs-theme))
+
+(defadvice load-theme (after fix-spaceline-later activate)
+  (sh/fix-spaceline))
+
+;;Define some theme groups
 
 (defun sh/set-tomorrow-themes ()
   (progn (defvar my-light-theme 'sanityinc-tomorrow-day)
@@ -53,10 +74,22 @@
 	 (defvar my-dark-theme 'spacemacs-light)
 	 (defvar term-theme 'spacemaces-dark)))
 
+(defun sh/set-moe-themes ()
+  (progn (defvar my-light-theme 'moe-light)
+	 (defvar my-dark-theme 'moe-dark)
+	 (defvar term-theme 'moe-dark)))
+
+(defun sh/set-zenburn-themes ()
+  (progn (defvar my-light-theme 'anti-zenburn)
+	 (defvar my-dark-theme 'zenburn)
+	 (defvar term-theme 'zenburn)))
+
 (sh/set-tomorrow-themes)
 
+;;Load themes
+
 (if (display-graphic-p)
-    (load-theme my-dark-theme 1)
+    (load-theme my-light-theme 1)
   (load-theme term-theme 1))
 
 (defun sh/load-dark-theme ()

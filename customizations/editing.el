@@ -17,6 +17,7 @@
 (global-set-key (kbd "M-g f") 'avy-goto-line)
 (global-set-key (kbd "M-g w") 'avy-goto-word-1)
 (global-set-key (kbd "M-g e") 'avy-goto-word-0)
+(setq avy-timeout-seconds 1)
 (avy-setup-default)
 (global-set-key (kbd "C-c C-j") 'avy-resume)
 
@@ -24,7 +25,10 @@
 ;; (load "evil-settings.el")
 
 ;;Org mode
+(require 'org)
 (setq org-src-fontify-natively t)
+(setq org-startup-indented t)
+(setq org-startup-truncated t)
 
 ;;Set up key-chords
 (require 'key-chord)

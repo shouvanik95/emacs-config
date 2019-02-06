@@ -1,19 +1,19 @@
 
 ;; ----- smex-history -----
 (
+ package-list-packages
+ package-install
+ helm-find-files
  load-theme
  sh/load-dark-theme
  sh/load-light-theme
  helm-M-x
- helm-find-files
- package-list-packages
- package-install
 )
 
 ;; ----- smex-data -----
 (
  (load-theme . 107)
- (package-list-packages . 39)
+ (package-list-packages . 40)
  (emacs-init-time . 10)
  (magit-init . 1)
  (c-mode . 1)
@@ -30,7 +30,7 @@
  (calc-grade . 1)
  (tetris . 8)
  (eshell . 26)
- (package-install . 5)
+ (package-install . 6)
  (eval-region . 1)
  (evil-normal-state . 1)
  (time-stamp . 1)
@@ -83,6 +83,6 @@
  (TeX-error-overview . 2)
  (find-file-other-window . 1)
  (ispell . 2)
- (helm-find-files . 1)
+ (helm-find-files . 2)
  (helm-M-x . 1)
 )

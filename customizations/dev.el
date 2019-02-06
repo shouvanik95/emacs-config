@@ -38,6 +38,13 @@
   (setq elpy-modules (delq 'elpy-module-flymake elpy-modules))
   (add-hook 'elpy-mode-hook 'flycheck-mode))
 
+(setq sh/python27env "/Users/shouvanik/miniconda3/envs/py27")
+
+(defun sh/activate-py27 ()
+  "Activates python 2.7 environment."
+  (interactive)
+  (pyvenv-activate sh/python27env))
+
 ;;Common Lisp
 (require 'slime)
 (setq inferior-lisp-program "/usr/local/bin/sbcl")
@@ -53,3 +60,10 @@
     '(define-key haskell-mode-map (kbd "C-c C-c") 'haskell-compile))
 (eval-after-load "haskell-cabal"
     '(define-key haskell-cabal-mode-map (kbd "C-c C-c") 'haskell-compile))
+(require 'haskell-interactive-mode)
+(require 'haskell-process)
+(add-hook 'haskell-mode-hook 'interactive-haskell-mode)
+
+;;Coq
+(require 'company-coq)
+(add-hook 'coq-mode-hook #'company-coq-mode)
